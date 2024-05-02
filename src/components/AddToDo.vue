@@ -1,16 +1,16 @@
 <template>
-    <div>
+    <div class="container rounded border">
         <form @submit.prevent="onSubmit">
-            <div>
+            <div class="form-group">
                 <label for="todo">To Do</label>
-                <input type="text" id="todo" v-model="todo">
+                <input type="text" id="todo" class="form-control" v-model="todo">
             </div>
-            <div>
+            <div class="form-group mb-2">
                 <label for="category">Category</label>
-                <input type="text" id="category" v-model="category">
+                <input type="text" id="category" class="form-control" v-model="category">
             </div>
-            <div>
-                <button>Add To Do</button>
+            <div class="form-group mb-2">
+                <button type="submit" class="btn btn-outline-primary">Add To Do</button>
             </div>
         </form>
     </div>

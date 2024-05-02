@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="container-sm" style="max-width: 500px">
     <Header />
     <ToDoList :todo="todo" :category="category" :toDos="toDos" @toDoDeleted="handleToDoDeleted" @toDoChecked="handleCheckedToDo"/>
     <AddToDo @toDoSubmitted="handleToDoSubmitted" />

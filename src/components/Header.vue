@@ -1,3 +1,3 @@
 <template>
-    <h2>To Do</h2>
+    <h2 class="text-center">To Do</h2>
 </template>
